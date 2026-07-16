@@ -1,6 +1,6 @@
 Changelog
 ===========
 
-* 0.1.Unreleased
+* 0.1.2
     * write-config
     * assoc-config
