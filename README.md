@@ -8,7 +8,31 @@ Writing per-tool configuration files
 
 # Release Information
 
-TBD
+Latest release: 0.1.2
+
+* [All released versions](https://central.sonatype.com/artifact/org.clojure/tools.deps.config.edit/versions)
+
+[deps.edn](https://clojure.org/reference/deps_edn) dependency information:
+
+```
+org.clojure/tools.deps.config.edit {:mvn/version "0.1.2"}
+```
+
+[Leiningen](https://github.com/technomancy/leiningen/) dependency information:
+
+```
+[org.clojure/tools.deps.config.edit "0.1.2"]
+```
+
+[Maven](https://maven.apache.org) dependency information:
+
+```xml
+<dependency>
+  <groupId>org.clojure</groupId>
+  <artifactId>tools.deps.config.edit</artifactId>
+  <version>0.1.2</version>
+</dependency>
+```
 
 # API
 
