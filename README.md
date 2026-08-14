@@ -37,7 +37,7 @@ org.clojure/tools.deps.config.edit {:mvn/version "0.1.2"}
 # API
 
 Tools are identified by a qualified lib symbol (e.g., `my.org/my-tool`). Tool
-config files live under a `.cli-config` directory at one of two locations:
+config files live under a `.cljconf` directory at one of two locations:
 
 * `:user` - the [user config dir](https://clojure.github.io/tools.deps.edn/#clojure.tools.deps.edn/user-config-dir) shared by all of a user's projects
 * `:project` - the [project dir](https://clojure.github.io/tools.deps.edn/#clojure.tools.deps.edn/project-dir) specific to a single project

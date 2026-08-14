@@ -18,7 +18,7 @@
 (set! *warn-on-reflection* true)
 
 (defn write-config
-  "Writes config as EDN to <location>/.cli-config/<lib-ns>/<lib-name>.edn
+  "Writes config as EDN to <location>/.cljconf/<lib-ns>/<lib-name>.edn
   with location defined by :user or :project. Overwrites any existing file."
   [location lib config]
   (let [file (cfg/config-file location lib)]
@@ -28,7 +28,7 @@
         (pprint/pprint config w)))))
 
 (defn assoc-config
-  "Sets the value at k in <location>/.cli-config/<lib-ns>/<lib-name>.edn
+  "Sets the value at k in <location>/.cljconf/<lib-ns>/<lib-name>.edn
   with location defined by :user or :project. Preserves all existing
   formatting. Creates the file with {k v} if it does not exist or is empty.
   Throws if the file cannot be parsed as a single EDN map."
